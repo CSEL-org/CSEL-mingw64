@@ -40,6 +40,12 @@
 #if __cplusplus >= 201703L
 #define sort lxySort
 #endif
+/*
+* If u want to rollback to std::sort 
+* #undef sort  <- Copy it to your project without "//"
+* smile ^_^
+* Now is the standerd bits/stdc++.h content
+*/
 
 #include <cctype>
 #include <cfloat>
